@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    font-family: Consolas, Arial, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="radio"] {
+    margin-bottom: 15px;
+}
+
+a {
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover, input[type="submit"] {
+    background-color: #0078D4;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+th {
+    padding: 5px;
+}
+
+td {
+    padding: 5px;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+footer {
+    margin-top: 20px;
+}
